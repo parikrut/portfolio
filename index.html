@@ -773,7 +773,7 @@
                     <div class="custom-form">
                         <div id="message"></div>
                         <form action="https://formspree.io/maylwrlz"
-                        method="POST" name="contact-form" id="contact-form">
+                        method="POST" name="contact-form" id="contact-form" onsubmit="myFunction()">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group mb-4">
@@ -857,6 +857,11 @@
     <script src="js/counter.js"></script>
     <!-- custom -->
     <script src="js/app.js"></script>
+    <script>
+        function myFunction() {
+          alert("Successfully sent");
+        }
+        </script>
 </body>
 
 </html>
