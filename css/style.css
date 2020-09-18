@@ -456,7 +456,7 @@ p {
 
 .services-flip-box:hover .services-front-flip {
     transform: rotateY(-180deg);
-    -ms-transform: rotateY-(180deg);
+    -ms-transform: rotateY(-180deg);
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -o-transform: rotateY(-180deg);
@@ -589,7 +589,10 @@ p {
     position: absolute;
     bottom: 50%;
     transform: translateY(50%);
-    -webkit-transform: -webkit-translateY(50%);
+    -ms-transform:  translateY(50%);
+    -webkit-transform:  translateY(50%);
+    -moz-transform:  translateY(50%);
+    -o-transform:  translateY(50%);
 
     left: 0px;
     right: 0px;
