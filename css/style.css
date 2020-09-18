@@ -446,19 +446,28 @@ p {
     left: 0;
     width: 100%;
     transform: rotateY(180deg);
-    -webkit-transform: -webkit-translateY(-180deg);
+    -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
     min-height: 218px;
     border-radius: 5px;
 }
 
 .services-flip-box:hover .services-front-flip {
     transform: rotateY(-180deg);
-    -webkit-transform: -webkit-translateY(-180deg);
+    -ms-transform: rotateY-(180deg);
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
 }
 
 .services-flip-box:hover .services-back-flip {
     transform: rotateY(0deg);
-    -webkit-transform: -webkit-translateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
 }
 
 /******************
@@ -513,7 +522,10 @@ p {
 
 .item-box:hover .item-mask {
     transform: translateX(0%);
-    -webkit-transform: -webkit-translateX(0%);
+    -ms-transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
     visibility: visible;
 }
 
@@ -523,16 +535,20 @@ p {
 
 .item-box:hover .item-container {
     transform: translateX(100%);
-    -webkit-transform: -webkit-translateX(100%);
+    -ms-transform:  translateX(100%);
+    -webkit-transform:  translateX(100%);
+    -moz-transform:  translateX(100%);
+    -o-transform:  translateX(100%);
     transition: all 0.5s ease-in-out 0s;
     width: 100%;
 }
 
 .item-container {
     transform: translateX(0%);
-    -webkit-transform: -webkit-translateX(0%);
-    -ms-transform: translateX(0%);
-    -webkit-transform: translateX(0%);
+    -ms-transform:  translateX(0%);
+    -webkit-transform:  translateX(0%);
+    -moz-transform:  translateX(0%);
+    -o-transform:  translateX(0%);
     width: 100%;
     transition: all 0.5s ease-in-out 0s;
     -moz-transition: all 0.5s ease-in-out 0s;
@@ -554,7 +570,10 @@ p {
     visibility: hidden;
     overflow: hidden;
     transform: translateX(-100%);
-    -webkit-transform: -webkit-translateX(-100%);
+    -ms-transform:  translateX(-100%);
+    -webkit-transform:  translateX(-100%);
+    -moz-transform:  translateX(-100%);
+    -o-transform:  translateX(-100%);
 
 }
 
