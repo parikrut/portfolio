@@ -425,6 +425,7 @@ p {
     5.Services
 *******************/
 
+
 .services-flip-box {
   perspective: 1000px;
 }
@@ -455,7 +456,7 @@ p {
     border-radius: 5px;
 }
 
-.services-flip-box:hover .services-flip-box:focus .services-flip-box:active .services-front-flip {
+.services-flip-box:hover .services-front-flip {
     transform: rotateY(-180deg);
     -ms-transform: rotateY(-180deg);
     -webkit-transform: rotateY(-180deg);
@@ -463,7 +464,7 @@ p {
     -o-transform: rotateY(-180deg);
 }
 
-.services-flip-box:hover .services-flip-box:focus .services-flip-box:active .services-back-flip {
+.services-flip-box:hover .services-back-flip {
     transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     -webkit-transform: rotateY(0deg);
