@@ -15,6 +15,11 @@
 12.responsive 
 */
 
+/* .collapse > ul > li > a > i{
+    justify-content: center;
+    display: flex;
+} */
+
 
 .post-wrapper{
 	display: grid;
